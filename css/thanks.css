@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: "Inter";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1f24;
+}
+main {
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    margin:  50px auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 60px #1E2E8A;
+}
+
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 15px auto;
+}
+
+main img {
+    width: 35%;
+}
+
+button {
+    width: 100%;
+    margin: 10px auto 20px;
+    padding: 10px;
+    height: 60px;
+    font-size: 1.2rem;
+    background-color: #1b1f24;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #282d35;
+    box-shadow: 0 0 5px #1b1f24;
+}
+
+#happy {
+    color: #3049b8;
+    font-size: 2rem;
+}
+
+@media (max-width: 1000px) {
+    main img {
+        display: none;
+    }
+}
+
+@media (max-width: 365px) {
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }    
+}
+
+@media (max-width: 275px) {
+    h1 {
+        font-size: 1rem;
+        font-weight: 900;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
