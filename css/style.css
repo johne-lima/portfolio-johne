@@ -586,10 +586,6 @@ form .send-btn:hover {
     border-radius: 6px;
 }
 
-::-webkit-scrollbar-button {
-    height: 100px;
-}
-
 @media (max-width: 680px) {
     .main-content p {
         width: 100%;
