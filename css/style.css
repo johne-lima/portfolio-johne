@@ -123,7 +123,7 @@ section {
 .main-content h1 {
     font-size: var(--h1-font);
     font-weight: 900;
-    margin: 20px 0px 20px;
+    margin: 7px 0px 20px;
     line-height: 1.2;
 }
 
