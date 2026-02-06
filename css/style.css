@@ -608,3 +608,10 @@ form .send-btn:hover {
         margin: 0 auto;
     }
 }
+
+.project-desc {
+    color: var(--other-color);
+    font-size: var(--p-font);
+    line-height: 30px;
+    margin-top: 10px;
+}
